@@ -166,13 +166,14 @@ async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     logo = LOGO
     output = (
-        f"running on __{UPSTREAM_REPO_BRANCH}__ \n"
-        "----------------------------------------\n"
-        "`Bot Version Info` \n"
-        f"`CODENAME : {CN} v{VER} `\n"
+        f"Tetap Di Jalan Setan Anak Anak \n"
+        "====================================\n"
+        "`I Love You All` \n"
+        f"`Code     : {CN} v{VER} `\n"
         f"`Telethon : v{version.__version__} `\n"
         f"`Python   : v{python_version()} `\n"
-        "----------------------------------------\n"
+        f"`Yukino The Best`\n"
+        "====================================\n"
         f"`User : `{DEFAULTUSER} \n\n"
         f"`All modules loaded with ({MODULESTR}) errors`"
     )
