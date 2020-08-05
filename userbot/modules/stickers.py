@@ -23,9 +23,9 @@ KANGING_STR = [
 ]
 
 
-@register(outgoing=True, pattern=r"^\.(?:get|kang)\s?(.)?")
-async def kang(args):
-    """ For .get or .kang command, kangs stickers or creates new ones. """
+@register(outgoing=True, pattern=r"^\.(?:get|nyolong)\s?(.)?")
+async def nyolong(args):
+    """ For .get or .nyolong command, nyolong stickers or creates new ones. """
     user = await bot.get_me()
     if not user.username:
         user.username = user.first_name
@@ -346,7 +346,7 @@ CMD_HELP.update(
 \nUsage: Works just like .get but uses the emoji('s) you picked.\
 \n\n.get/.kang [number]\
 \nUsage: Kang's the sticker/image to the specified pack but uses ◾ as emoji.\
-\n\n.get/.kang [emoji('s)] [number]\
+\n\n.get/.nyolong [emoji('s)] [number]\
 \nUsage: Kang's the sticker/image to the specified pack and uses the emoji('s) you picked.\
 \n\n.stkrinfo\
 \nUsage: Gets info about the sticker pack.\
